@@ -1,0 +1,14 @@
+.angleselector-dialcontainer {
+    height: 80%;
+    width: 100%;
+}
+
+.angleselector-display {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #263CA9;
+}

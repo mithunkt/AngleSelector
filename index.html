@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+/* 
+ * @version v2.5
+ * @since v2.5
+ * @author Tata Consultancy Services (TCS)
+ * 
+ * Copyrights © 2014 Tata Consultancy Services Limited. ALL RIGHTS RESERVED.
+ *
+ * The data contained herein shall not be disclosed, duplicated, or used in whole
+ * or in part for any purpose other than to evaluate the proposal, provided that
+ * if a contract is awarded to this offer as a result of, or in connection with,
+ * the submission of these data, the recipient shall have the right to duplicate,
+ * use or disclose the data to the extent provided in the agreement. This
+ * restriction does not limit the right to use information contained in the
+ * data if it is obtained from another source without restriction.
+ */
+-->
+<html>
+
+<head>
+
+    <!-- title -->
+    <title>AngleSelector JS</title>
+
+    <!-- app configuration -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <link rel="stylesheet" href="css/angleselector.css">
+    <style>
+        #container {
+            height: 400px;
+            width: 300px;
+            position: relative;
+        }
+    </style>
+    <script src="js/angleselector.js"></script>
+
+</head>
+
+<body oncontextmenu="return false;">
+    <div id="container"></div>
+    <script>
+        var angleselector = new AngleSelector({
+            container: $("#container"),
+            direction: -1
+        });
+    </script>
+</body>
+
+</html>
